@@ -19,8 +19,6 @@ def areAnagram(str1, str2):
 
 	return 1
 
-
-# Driver program to test the above function 
 str1 = input("Enter String 1: ")
 str2 = input("Enter String 2: ")
 if areAnagram(str1, str2): 
@@ -28,4 +26,3 @@ if areAnagram(str1, str2):
 else: 
 	print ("The two strings are not anagram of each other") 
 
-# This code is contributed by Bhavya Jain 
